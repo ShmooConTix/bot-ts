@@ -4,6 +4,7 @@ import { sleep } from "bun";
 import { WebhookClient } from "discord.js"
 import { randomUUID } from "crypto";
 
+// this is NOT a valid webhook (seriously, you can try it)
 const w = new WebhookClient({
   url: "https://discord.com/api/webhooks/1179949324214472856/r0hBtjnc-1mYprgJDV5A7sMmcldck-X2050pfpRYs2OyzBftY9s4DweWf3SbF-U6BQrZ"
 });
@@ -27,7 +28,6 @@ export class SuccessStage extends PurchasingStage {
     });
 
     const html = await this.thread.page.content();
-
 
     await Bun.write(`./data/checkout-success-${uuid}.html`, html);
 
