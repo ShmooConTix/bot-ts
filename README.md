@@ -1,4 +1,4 @@
-# ShmooCon Ticket Bot Mock Ticket Bot (bot-ts) 🎫🤖
+# ShmooCon Ticket Bot (bot-ts) 🎫🤖
 *This is part of a proof-of-concept bot to automatically purchase tickets for ShmooCon, a conference that is notoriously hard to get tickets for. [See more info here.](https://github.com/ShmooConTix/ticket-bot)*
 
 > [!CAUTION]
